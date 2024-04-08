@@ -22,7 +22,7 @@ spec:
             name: "${PLATFORM}" # set to aws or vsphere,
             managed: "${MANAGED}" # set to true for ARO or ROSA
           argo:
-            namespace: ${GIT_GITOPS_NAMESPACE}
+            namespace: openshift-gitops
             serviceAccount: openshift-gitops-cntk-argocd-application-controller
           registry:
             storageClassName: ocs-storagecluster-cephfs

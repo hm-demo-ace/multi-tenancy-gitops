@@ -107,7 +107,7 @@ resources:
 #- argocd/instances/openldap.yaml
 # Required for IBM ACE, IBM MQ
 - argocd/operators/cert-manager.yaml
-- argocd/instances/cert-manager-instance.yaml
+# - argocd/instances/cert-manager-instance.yaml
 
 # Sealed Secrets
 #- argocd/instances/sealed-secrets.yaml

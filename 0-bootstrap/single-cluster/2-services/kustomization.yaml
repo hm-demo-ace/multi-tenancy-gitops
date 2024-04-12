@@ -106,7 +106,7 @@ resources:
 # Required for IBM MQ
 #- argocd/instances/openldap.yaml
 # Required for IBM ACE, IBM MQ
-- argocd/operators/cert-manager.yaml
+# - argocd/operators/cert-manager.yaml
 # - argocd/instances/cert-manager-instance.yaml
 
 # Sealed Secrets
@@ -123,7 +123,7 @@ resources:
 #- argocd/instances/sonarqube.yaml
 #- argocd/instances/pact-broker.yaml
 # In OCP 4.7+ we need to install openshift-pipelines and possibly privileged scc to the pipeline serviceaccount
-- argocd/operators/openshift-pipelines.yaml
+# - argocd/operators/openshift-pipelines.yaml
 
 # Serverless
 #- argocd/operators/openshift-serverless.yaml
